@@ -2,6 +2,7 @@
 variable "app_name" {
   type        = string
   description = "Application name. Use only lowercase letters and numbers"
+  default = ""sentites"
 }
 
 variable "location" {
@@ -13,7 +14,7 @@ variable "location" {
 variable "domain_name_label" {
   type        = string
   description = "Unique domain name label for AKS Cluster / Application Gateway"
-  default     = "aks-cluster-test"
+  default     = "aks-cluster-sentites"
 }
 
 
