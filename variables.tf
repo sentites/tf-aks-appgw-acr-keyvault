@@ -2,13 +2,13 @@
 variable "app_name" {
   type        = string
   description = "Application name. Use only lowercase letters and numbers"
-  default = ""sentites"
+  default = "sentites"
 }
 
 variable "location" {
   type        = string
   description = "Azure region where to create resources."
-  default     = "West Europe"
+  default     = "westeurope"
 }
 
 variable "domain_name_label" {
